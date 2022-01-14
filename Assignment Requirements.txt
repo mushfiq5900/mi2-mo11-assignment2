@@ -1,0 +1,13 @@
+1. Name the website
+2. Menu(Optional)
+3. Hero part a nijer text dite hobe
+4. Hero button a icon ditei hbe
+5. Image hote hbe camera or video or shooting related
+6. Product minimum 6ta hote hbe. 9ta recommended
+7. See more dite hbe
+8. Final part ta option tobe ami dibo
+9. Footer must. Icon ditei hbe. Copyright symbol ditei hbe.
+10. Mobile responsive kortei hobe. 1 column. It's must.
+11. Tablet view korte hbe. 2 column
+12. Hero photo te transition dite hbe. Bonus ache.
+13. Sesh part ta nijer mto add korte hbe.

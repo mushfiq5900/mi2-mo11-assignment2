@@ -1,0 +1,88 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Common Styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: #3A3A3A;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 1320px;
+    /* background-color: #fafafa; */
+}
+.half-width{
+    width: 50%;
+}
+.flex-display{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+/* header style */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-bar{
+    margin-top: 20px;
+}
+.menu-bar a{
+    text-decoration: none;
+    color: #3A3A3A;
+    margin-left: 20px;
+}
+.span-color{
+    color: #94C83D;
+}
+
+/* hero-banner styles */
+.h-text{
+    margin-top: 120px;
+}
+.title-text{
+    font-size: 52px;
+    line-height:1.4em;
+    margin-bottom: 0px;
+}
+.hero-image img{
+    margin-top: 40px;
+    width: 100%;
+}
+.prebook-btn{
+    color: white;
+    background-color: #94C83D ;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.partner-logo{
+    margin-top: 50px;
+}
+
+.border-div{
+    height: 2px;
+    width: 1320px;
+    background-color: rgb(238, 238, 238);
+    margin: 20px 0px;
+}
+.p-logo img{
+    width: 100px;
+    height: 50px;
+    margin: 0px 50px;
+}
+
