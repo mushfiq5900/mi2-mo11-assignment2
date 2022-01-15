@@ -27,6 +27,9 @@ main{
 a{
     text-decoration: none;
 }
+.span-color{
+    color: #94C83D;
+}
 /* header style */
 header{
     display: flex;
@@ -46,9 +49,16 @@ nav{
     color: #3A3A3A;
     margin-left: 20px;
 }
-.span-color{
-    color: #94C83D;
+.menu-bar a:hover{
+    color:#94C83D ;
 }
+.fa-shopping-cart:hover{
+    color:#94C83D ;
+}
+.fa-search:hover{
+    color:#94C83D ;
+}
+
 
 /* hero-banner styles */
 .h-text{
@@ -62,13 +72,24 @@ nav{
 .hero-image img{
     margin-top: 40px;
     width: 100%;
-}
-.prebook-btn{
+} 
+.hero-image img:hover{
+    transform: scale(1.1);
+    transition: transform .6s;
+} 
+.prebook-btn a{
+    margin-top: 20px;
+    display: inline-block;
     color: white;
     background-color: #94C83D ;
     padding: 10px;
     font-size: 18px;
     border-radius: 6px;
+}
+.prebook-btn a:hover{
+    border: 2px solid #94C83D ;
+    background-color: white;
+    color: #94C83D;
 }
 .partner-logo{
     margin-top: 50px;
@@ -81,11 +102,11 @@ nav{
     margin: 20px 0px;
 }
 .p-logo img{
-    width: 100px;
+    width: 130px;
     height: 50px;
     margin: 0px 50px;
 }
-/* New Collection Styles */
+/* New Collection/Products Styles */
 .new-collection>h1{
     text-align: center;
     margin-bottom: 50px;
@@ -107,6 +128,10 @@ nav{
     width: 327px;
     height: 265px;
 }
+.product-image img:hover{
+    transform: scale(1.05);
+    transition: transform .4s;
+}
 .rating-div .fa-star{
     color: orange;
 }
@@ -118,7 +143,46 @@ nav{
     font-size: 24px;
 }
 
-.see-more-btn,a{
+.see-more-btn a{
+    display: block;
     text-align: right;
     color: #94C83D ;
+    margin-top:50px;
+    margin-bottom:100px;
+    font-size: 18px;
+}
+.see-more-btn a:hover{
+    color: #3A3A3A;;
+}
+
+/* Package Products Style */
+.packages{
+    margin-bottom: 100px;
+}
+.pack-text h1{
+    margin-top: 0px;
+}
+
+.pack-image img{
+    border-radius: 10px;
+}
+
+/* Footer Style */
+
+footer{
+    padding-top: 50px;
+    background-color: #94C83D ;
+    height: 150px;
+    text-align: center;
+}
+.footer-texts h2,p {
+    margin: 0px;
+}
+.footer-icons{
+    justify-content: center;
+}
+.fab,.fas{
+    margin: 10px 5px;
+    color: #3A3A3A;
+    font-size: 18px;
 }
