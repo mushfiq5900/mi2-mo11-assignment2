@@ -185,14 +185,8 @@ footer{
     font-size: 18px;
 }
 
-/* Responsive Style */
+/********* Responsive Style********/
 
-/* 
-.hero-banner
-.partner-logo
-.products
-.packages
-*/
 /* Laptop Device */
 
 @media only screen and (max-width: 1024px) {
